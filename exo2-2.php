@@ -18,7 +18,7 @@ Voir l’image si dessous si l’utilisateur choisit français
 <select name="choix">
     <option value="francais">francais</option>
     <option value="anglais">anglais</option>
-    </select>
+</select>
     <input type="submit" name="valider" value="valider">
 </form>
 </body>
@@ -43,6 +43,7 @@ $langue=$_POST['choix'];
         for($j=1;$j<=3;$j++)
         {
         ?>
+
             <td><?php echo ++$k;?></td>
             <td><?php echo $tab[$langue][$k-1]; ?></td> 
         
